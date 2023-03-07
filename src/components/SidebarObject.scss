@@ -1,0 +1,34 @@
+.sidebarObject {
+
+    &_title {
+        font-weight: 700;
+        box-shadow: 2px 2px 2px 2px lightgray;
+
+        &-selected {
+            font-weight: 700;
+            box-shadow: 2px 2px 2px 2px lightgray;
+            background-color: lightgray;
+        }
+    }
+
+    &_list {
+        height: 0;
+        overflow: hidden;
+        transition: 2s;
+    }
+
+    &_mineral {
+        display: flex;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+
+        & > img {
+            height: 1.5rem;
+        }
+    }
+}
+
+.selected {
+    height: auto;
+}

@@ -1,1 +1,15 @@
 @import './styling/variables.scss';
+
+body {
+  user-select: none;
+}
+
+.container {
+  display: flex;
+
+  &_sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+}
