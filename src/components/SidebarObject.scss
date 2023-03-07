@@ -4,17 +4,26 @@
         font-weight: 700;
         box-shadow: 2px 2px 2px 2px lightgray;
 
+        &:hover {
+            cursor: pointer;
+        }
+
         &-selected {
             font-weight: 700;
             box-shadow: 2px 2px 2px 2px lightgray;
             background-color: lightgray;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 
     &_list {
         height: 0;
         overflow: hidden;
-        transition: 2s;
+        transition: height 1s;
+        transition-timing-function: linear;
     }
 
     &_mineral {
@@ -23,6 +32,10 @@
         border-radius: 0.5rem;
         padding: 0.5rem;
 
+        &:hover {
+            cursor: pointer;
+        }
+
         & > img {
             height: 1.5rem;
         }
@@ -30,5 +43,5 @@
 }
 
 .selected {
-    height: auto;
+    height: 100%;
 }

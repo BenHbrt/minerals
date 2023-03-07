@@ -1,0 +1,40 @@
+.mineralinfo {
+    position: relative;
+    margin-bottom: 0.8rem;
+    width: 100%;
+
+    &_close > img {
+        width: 1.5rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &_name {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 0.2rem;
+    }
+
+    &_image {
+        width: 100%;
+        border-radius: 1.5rem;
+        box-shadow: 3px 3px 3px 3px lightgray;
+    }
+
+    &_link > span {
+        font-weight: 700;
+    }
+
+    &_link > a {
+        text-decoration: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

@@ -1,3 +1,4 @@
+import './MineralInfo.scss'
 import { useState } from 'react'
 
 const MineralInfo = ({ mineral, func }) => {
